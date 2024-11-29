@@ -58,3 +58,22 @@ URL: [http://webgoat.herokuapp.com](http://webgoat.herokuapp.com)
 URL: [https://www.hackthebox.com](https://www.hackthebox.com) (Requires registration.)
 
 ---
+
+## Example: Scanning a Test Server
+To scan the DVWA test server:
+```bash
+nikto -h http://testphp.vulnweb.com
+```
+
+### Output:
+The results will display:
+- Web server headers.
+- Identified vulnerabilities (e.g., outdated software, dangerous files).
+- Recommendations to mitigate the issues.
+
+Save the output to a file:
+```bash
+nikto -h http://testphp.vulnweb.com -output report.txt
+```
+
+---
