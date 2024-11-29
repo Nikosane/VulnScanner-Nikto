@@ -41,3 +41,20 @@ nikto -h http://testphp.vulnweb.com -output report.txt
 ```
 
 ---
+
+## Test Servers
+These servers are explicitly provided for legal vulnerability testing:
+
+### 1. DVWA (Damn Vulnerable Web Application)
+URL: [http://testphp.vulnweb.com](http://testphp.vulnweb.com)
+
+### 2. OWASP Juice Shop
+URL: [https://juice-shop.herokuapp.com](https://juice-shop.herokuapp.com)
+
+### 3. WebGoat
+URL: [http://webgoat.herokuapp.com](http://webgoat.herokuapp.com)
+
+### 4. Hack the Box Starting Point
+URL: [https://www.hackthebox.com](https://www.hackthebox.com) (Requires registration.)
+
+---
