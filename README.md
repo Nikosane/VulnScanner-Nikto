@@ -78,10 +78,6 @@ nikto -h http://testphp.vulnweb.com -output report.txt
 
 ---
 
-## Additional Files
-
-### 1. License File (`LICENSE`)
-Include a license file in your repository to clarify usage rights. Example:
 ```plaintext
 MIT License
 Copyright (c) 2024 [Nikosane]
