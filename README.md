@@ -75,11 +75,3 @@ Save the output to a file:
 ```bash
 nikto -h http://testphp.vulnweb.com -output report.txt
 ```
-
----
-
-```plaintext
-MIT License
-Copyright (c) 2024 [Nikosane]
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
